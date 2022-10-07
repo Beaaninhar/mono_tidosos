@@ -1,13 +1,17 @@
 {
   "name": "TIdosos",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "app/server.js",
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "nodemon entrypoint.js"
   },
   "author": "Ana Beatriz",
   "license": "MIT",
   "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.3",
+    "@babel/register": "^7.18.9",
     "nodemon": "^2.0.20"
   },
   "dependencies": {
